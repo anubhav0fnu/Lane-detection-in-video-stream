@@ -23,9 +23,12 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+My pipeline consisted of 5 steps. 
+* First, I converted the original images to grayscale, so that I can apply Canny algorithm.
+* Second, applied Gaussian filter to grayscaled image to filter-out noise and spurious gradients.
+* Third, applied the apply canny algorithm on the above image.
+* Fouth, calulated Hough lines from canny edges. hough_lines() function internally calls draw_lines() function to draw the       lines to the full extent.
+> In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 1. We got an image with hough lines drawn from hough_lines() function. These lines are drawn on the bases of edges/dots
    returned from canny algorithm.So, basicaly lines will only be drawn on the pixels which has qualified certain threshold
    of pixel intensity. Therefore, if the current pipeline watches a unbroken any color lane lines then it will annotate
