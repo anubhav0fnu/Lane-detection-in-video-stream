@@ -42,20 +42,20 @@ In order to draw a single line on the left and right lanes, I modified the draw_
    ** I found few Horizontal lines. I have seperated them into left-lane lines & right-lane lines on the basis of a 
       condition <500 & >500 respectively
 3. After finding the left-lane lines & right-lane lines. I followed the follow points. Consider now only left-lane lines
-    3.1 First find out minimum of all y's.
-    3.2 Now, Calculate minimum of x for the minimum y, oops...! You do not know Intercept & slope. Follow the below steps:
-    3.2 Calculate average slope among all left-lane lines,
-        3.2.1 find the average of all (x1,y1,x2,y2) coordinates to get (x1_avg,y1_avg,x2_avg,y2_avg)
-        3.2.2 Now, calculate slope_avg = (y2_avg - y1_avg) / (x2_avg - x1_avg)
-    3.3 Calculate average Intercept,
-        3.3.1 intercept_avg = y1_avg - (slope_avg * x1_avg)
-    3.4 Now you have all the tools x1_avg, y1_avg, slope_avg, intercept_avg to perform 3.2 for minimum y point.
-         min_x = (y_min - intercept_avg) / slope_avg
+    * First find out minimum of all y's.
+    * Now, Calculate minimum of x for the minimum y, oops...! You do not know Intercept & slope. Follow the below steps:
+    * Calculate average slope among all left-lane lines,
+        * find the average of all (x1,y1,x2,y2) coordinates to get (x1_avg,y1_avg,x2_avg,y2_avg)
+        * Now, calculate slope_avg = (y2_avg - y1_avg) / (x2_avg - x1_avg)
+    * Calculate average Intercept,
+        * intercept_avg = y1_avg - (slope_avg * x1_avg)
+    * Now you have all the tools x1_avg, y1_avg, slope_avg, intercept_avg to calculate minimum of x for minimum y point by           using:
+         $ min_x = (y_min - intercept_avg) / slope_avg$
 
-Now, we have (min_x, min_y) among all left-lane lines and we can calculate (max_x, max_y) similarly by following the
-above algorithm.
-Next step is to find (min_x, min_y) & (max_x, max_y) for right-lane lines.
-4. The goal to get a consistent line on both lanes, you did step 3 & 4.
+4. Now, we have (min_x, min_y) among all left-lane lines and we can calculate (max_x, max_y) similarly by following the
+   above algorithm.
+   Next step is to find (min_x, min_y) & (max_x, max_y) for right-lane lines.
+5. The goal to get a consistent line on both lanes, you did step 3 & 4.
    Now, it's the time to connect & color them with cv2.line() function.
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
