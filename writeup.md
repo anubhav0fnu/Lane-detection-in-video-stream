@@ -56,8 +56,7 @@ My pipeline consisted of 5 steps.
 > 4. Now, we have `(min_x, min_y)` among all left-lane lines and we can calculate `(max_x, max_y)` similarly by following the
    above algorithm.
    Next step is to find `(min_x, min_y) & (max_x, max_y)` for right-lane lines from the above steps.
-> 5. The goal to get a consistent line on both lanes, you did step 3 & 4.
-   Now, it's the time to connect & color them with cv2.line() function.
+* Fifth, The achived the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
 
 
 ### 2. Identify potential shortcomings with your current pipeline
