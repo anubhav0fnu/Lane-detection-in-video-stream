@@ -35,12 +35,11 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 2. Seperate the left-lane lines & right-lane lines from the lines returned from hough_lines() function. We can perform 
    it by finding slope of each line and checking under the condition whether it's <0 or >0, respectively put the lines
    in left-lane lines, right-lane lines list.
-   > 
-   * ** I observed that there were no verticle lines(slope Infinity) detected in any image. But, can't' find a solid reason           for it.**
+   *  **I observed that there were no verticle lines(slope Infinity) detected in any image. But, can't' find a solid reason           for it.
       May be Hough transformation has excluded them because, these lines are parallel to y-axis and will never meet.
       But, I can defend against this point that, these lines could intersect with many other +ve or -ve slope lines,
-      then they are significant.
-   * ** I found few Horizontal lines. I have seperated them into left-lane lines & right-lane lines on the basis of a 
+      then they are significant.**
+   * **I found few Horizontal lines. I have seperated them into left-lane lines & right-lane lines on the basis of a 
       condition <500 & >500 respectively**
 3. After finding the left-lane lines & right-lane lines. I followed the follow points. Consider now only left-lane lines
     * First find out minimum of all y's.
