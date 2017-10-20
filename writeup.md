@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 ---
 
 ### Reflection
-<div class="alert alert-block alert-success">
+
 ### 1. Describe your pipeline:
 
 My pipeline consisted of 5 steps. 
@@ -43,7 +43,7 @@ created a canny masked image
 
 * Fifth, calulated Hough lines from canny edges.
 <img src="pipeLine-screenshots/8.HoughLines_Drawn.jpg" width="480" />
-The hough_lines() function internally calls draw_lines() function to draw the lines to the full extent. The lines returned from hough_lines() function are drawn on the bases of edges/dots returned from canny algorithm. So, basicaly lines will only be drawn on the pixels which has qualified certain threshold of pixel intensity. Therefore, if the current pipeline watches a unbroken any-color lane-lines then it will annotate it, but if it the lane-lines are broken, which they are on roads, then they will only recognise the any-color broken patches.
+<div class="alert alert-block alert-info">The hough_lines() function internally calls draw_lines() function to draw the lines to the full extent. The lines returned from hough_lines() function are drawn on the bases of edges/dots returned from canny algorithm. So, basicaly lines will only be drawn on the pixels which has qualified certain threshold of pixel intensity. Therefore, if the current pipeline watches a unbroken any-color lane-lines then it will annotate it, but if it the lane-lines are broken, which they are on roads, then they will only recognise the any-color broken patches.</div>
 Here, **The goal now is to draw a consistent annotation on the lane lines irrespective of whether it is broken or not.**
 
 >  In order to draw a single annotation on the left and right lanes, I modified the draw_lines() function as follows
@@ -75,8 +75,7 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 Later, made the annotation semi-transpared by using cv2.addWeighted() function.
 <img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" />
 After implementing the above Twice, I got the below given results:
-</div>
-
+---
 * When I kept the slope condition as 
 <img src="findings/slope_criteria-1.png" width="300" />
 * The following were the points selected for annotation.
