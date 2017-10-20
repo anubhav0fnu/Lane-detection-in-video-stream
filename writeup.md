@@ -57,8 +57,37 @@ My pipeline consisted of 5 steps.
    above algorithm.
    Next step is to find `(min_x, min_y) & (max_x, max_y)` for right-lane lines from the above steps.
 * Fifth, To achive the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
-
-
+After implementing the above Twice, I got the below given results:
+---
+>  When I kept the slope condition as 
+>> [image1]: ./findings/slope_criteria-1.png
+> The following were the points selected for annotation.
+>> [image2]: ./findings/slope-criteria-1,both lines-coordinates.png
+> The below are the reflections on the image:
+>> 
+<ul>
+    <li><img src="findings/slope-criterion-1/solidWhiteCurve_output.jpg"></li>
+    <li><img src="findings/slope-criterion-1/solidWhiteRight_output.jpg"></li>
+    <li><img src="findings/slope-criterion-1/solidYellowCurve2_output.jpg"></li>
+    <li><img src="findings/slope-criterion-1/solidYellowCurve_output.jpg"></li>
+    <li><img src="findings/slope-criterion-1/solidYellowLeft_output.jpg"></li>
+    <li><img src="findings/slope-criterion-1/whiteCarLaneSwitch_output.jpg"></li>
+</ul>
+---
+>  When I kept the slope condition as 
+>> [image1]: ./findings/slope_criteria-2.png
+> The following were the points selected for annotation.
+>> [image2]: ./findings/slope-criteria-2-coordinates.png
+> The below are the reflections on the image:
+>> 
+<ul>
+    <li><img src="findings/slope-Criterion-2/solidWhiteCurve_output.jpg"></li>
+    <li><img src="findings/slope-Criterion-2/solidWhiteRight_output.jpg"></li>
+    <li><img src="findings/slope-Criterion-2/solidYellowCurve2_output.jpg"></li>
+    <li><img src="findings/slope-Criterion-2/solidYellowCurve_output.jpg"></li>
+    <li><img src="findings/slope-Criterion-2/solidYellowLeft_output.jpg"></li>
+    <li><img src="findings/slope-Criterion-2/whiteCarLaneSwitch_output.jpg"></li>
+</ul>
 ### 2. Identify potential shortcomings with your current pipeline
 
 
