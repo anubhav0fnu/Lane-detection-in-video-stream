@@ -23,8 +23,8 @@ The goals / steps of this project are the following:
 
 ### 1.  Describe your pipeline:
 
-#### My pipeline consisted of 6 steps. 
-   Started with the original image:
+#### My pipeline consisted of 6 steps. <br />
+   Started with the original image:<br />
 <img src="pipeLine-screenshots/1.original_image.jpg" width="480" />
 
 *  First, I converted the original images to grayscale, so that I can apply Canny algorithm.
