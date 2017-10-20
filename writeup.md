@@ -60,12 +60,11 @@ My pipeline consisted of 5 steps.
 After implementing the above Twice, I got the below given results:
 
 ---
-
- * When I kept the slope condition as 
-   <img src="./findings/slope_criteria-1.png" width="300" />
- * The following were the points selected for annotation.
-  <img src="./findings/slope-criteria-1,both lines-coordinates.png" width="300" />
- * The below are the reflections on the image:
+* When I kept the slope condition as 
+<img src="./findings/slope_criteria-1.png" width="300" />
+* The following were the points selected for annotation.
+<img src="./findings/slope-criteria-1,both lines-coordinates.png" width="300" />
+* The below are the reflections on the image:
 <p float="left">
   <img src="findings/slope-criterion-1/solidWhiteCurve_output.jpg" width="100" />
   <img src="findings/slope-criterion-1/solidWhiteRight_output.jpg" width="100" />
@@ -76,7 +75,7 @@ After implementing the above Twice, I got the below given results:
 </p>
 
 * When I kept the slope condition as 
- <img src="./findings/slope_criteria-2.png" width="300" />
+<img src="./findings/slope_criteria-2.png" width="300" />
 * The following were the points selected for annotation.
 <img src="./findings/slope-criteria-2-coordinates.png" width="300" />
 * The below are the reflections on the image:  
