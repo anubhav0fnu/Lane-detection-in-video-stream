@@ -59,15 +59,23 @@ My pipeline consisted of 5 steps.
 * Fifth, To achive the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
 After implementing the above Twice, I got the below given results:
 ---
+---
 * When I kept the slope condition as 
 [image1]: ./findings/slope_criteria-1.png
 * The following were the points selected for annotation.
 [image2]: ./findings/slope-criteria-1,both lines-coordinates.png
 * The below are the reflections on the image:
-![ima1](findings/slope-criterion-1/solidWhiteCurve_output.jpg)  |  ![ima2](findings/slope-criterion-1/solidWhiteRight_output.jpg)
+![ima1]()  |  ![ima2]()
+<p float="left">
+  <img src="/findings/slope-criterion-1/solidWhiteCurve_output.jpg" width="100" />
+  <img src="/findings/slope-criterion-1/solidWhiteRight_output.jpg" width="100" /> 
+  <img src="/findings/slope-criterion-1/solidWhiteRight_output.jpg" width="100" />
+</p>
+---
+---
 <ul>
     <li><img src=""></li>
-    <li><img src="findings/slope-criterion-1/solidWhiteRight_output.jpg"></li>
+    <li><img src=""></li>
     <li><img src="findings/slope-criterion-1/solidYellowCurve2_output.jpg"></li>
     <li><img src="findings/slope-criterion-1/solidYellowCurve_output.jpg"></li>
     <li><img src="findings/slope-criterion-1/solidYellowLeft_output.jpg"></li>
