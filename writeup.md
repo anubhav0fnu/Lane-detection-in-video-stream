@@ -60,6 +60,7 @@ My pipeline consisted of 5 steps.
 After implementing the above Twice, I got the below given results:
 
 ---
+
 * When I kept the slope condition as 
 <img src="./findings/slope_criteria-1.png" width="300" />
 * The following were the points selected for annotation.
@@ -87,6 +88,9 @@ After implementing the above Twice, I got the below given results:
   <img src="findings/slope-Criterion-2/solidYellowLeft_output.jpg" width="100" />
   <img src="findings/slope-Criterion-2/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
+
+Now, I have fixed the x's too with y's to the follwoing:
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 
