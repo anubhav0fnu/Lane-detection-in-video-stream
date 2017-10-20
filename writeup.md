@@ -64,9 +64,11 @@ After implementing the above Twice, I got the below given results:
 > The following were the points selected for annotation.
 >> [image2]: ./findings/slope-criteria-1,both lines-coordinates.png
 > The below are the reflections on the image:
->> 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://findings/slope-criterion-1/solidWhiteCurve_output.jpg)  |  ![](findings/slope-criterion-1/solidWhiteRight_output.jpg)
 <ul>
-    <li><img src="findings/slope-criterion-1/solidWhiteCurve_output.jpg"></li>
+    <li><img src=""></li>
     <li><img src="findings/slope-criterion-1/solidWhiteRight_output.jpg"></li>
     <li><img src="findings/slope-criterion-1/solidYellowCurve2_output.jpg"></li>
     <li><img src="findings/slope-criterion-1/solidYellowCurve_output.jpg"></li>
