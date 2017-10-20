@@ -1,6 +1,5 @@
 # **Finding Lane Lines on the Road** 
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
-
+<img src="findings/Fixed-the-x&y's/whiteCarLaneSwitch_output.jpg" width="480" />
 Overview
 ---
 
