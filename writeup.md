@@ -74,7 +74,7 @@ After implementing the above Twice, I got the below given results:
   <img src="findings/slope-criterion-1/solidYellowLeft_output.jpg" width="100" />
   <img src="findings/slope-criterion-1/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
-
+---
 * When I kept the slope condition as 
 <img src="findings/slope-criteria-2.png" width="300" />
 * The following were the points selected for annotation.
@@ -88,9 +88,21 @@ After implementing the above Twice, I got the below given results:
   <img src="findings/slope-Criterion-2/solidYellowLeft_output.jpg" width="100" />
   <img src="findings/slope-Criterion-2/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
-
-Now, I have fixed the x's too with y's to the follwoing:
-
+---
+Now, I have fixed the x's and y's for annotation to get the following:
+* When I kept the above slope condition as 
+<img src="findings/slope-criteria-2.png" width="300" />
+* The following were the fixed points selected for annotation.
+<img src="findings/fixedValuesOfx&ys.png" />
+* The below are the reflections on the image:  
+<p float="left">
+  <img src="findings/Fixed-the-x&y's/solidWhiteCurve_output.jpg" width="100" />
+  <img src="findings/Fixed-the-x&y's/solidWhiteRight_output.jpg" width="100" />
+  <img src="findings/Fixed-the-x&y's/solidYellowCurve2_output.jpg" width="100" />
+  <img src="findings/Fixed-the-x&y's/solidYellowCurve_output.jpg" width="100" />
+  <img src="findings/Fixed-the-x&y's/solidYellowLeft_output.jpg" width="100" />
+  <img src="findings/Fixed-the-x&y's/whiteCarLaneSwitch_output.jpg" width="100" />
+</p>
 ### 2. Identify potential shortcomings with your current pipeline
 
 
