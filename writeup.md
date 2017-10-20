@@ -25,24 +25,24 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 5 steps. 
 Started with the original image:
-<img src="findings/pipeLine-screenshots/1.original_image.jpg" width="480" />
+<img src="pipeLine-screenshots/1.original_image.jpg" width="480" />
 
 * First, I converted the original images to grayscale, so that I can apply Canny algorithm.
-<img src="findings/pipeLine-screenshots/2.gray_image.jpg" width="480" />
+<img src="pipeLine-screenshots/2.gray_image.jpg" width="480" />
 * Second, applied Gaussian filter to grayscaled image to filter-out noise and spurious gradients.
-<img src="findings/pipeLine-screenshots/3.blur_gray.jpg" width="480" />
+<img src="pipeLine-screenshots/3.blur_gray.jpg" width="480" />
 * Third, applied the apply canny algorithm on the above image.
-<img src="findings/pipeLine-screenshots/4.canny_edges.jpg" width="480" />
+<img src="pipeLine-screenshots/4.canny_edges.jpg" width="480" />
 * Fouth, 
 Created mask
-<img src="findings/pipeLine-screenshots/5.mask.jpg" width="480" />
+<img src="pipeLine-screenshots/5.mask.jpg" width="480" />
 created a masked image
-<img src="findings/pipeLine-screenshots/6.masked_image.jpg" width="480" />
+<img src="pipeLine-screenshots/6.masked_image.jpg" width="480" />
 created a canny masked image
-<img src="findings/pipeLine-screenshots/7.masked_canny_edges.jpg" width="480" />
+<img src="pipeLine-screenshots/7.masked_canny_edges.jpg" width="480" />
 
 * Fifth, calulated Hough lines from canny edges.
-<img src="findings/pipeLine-screenshots/8.HoughLines_Drawn.jpg" width="480" />
+<img src="pipeLine-screenshots/8.HoughLines_Drawn.jpg" width="480" />
 The hough_lines() function internally calls draw_lines() function to draw the lines to the full extent. The lines returned from hough_lines() function are drawn on the bases of edges/dots returned from canny algorithm. So, basicaly lines will only be drawn on the pixels which has qualified certain threshold of pixel intensity. Therefore, if the current pipeline watches a unbroken any-color lane-lines then it will annotate it, but if it the lane-lines are broken, which they are on roads, then they will only recognise the any-color broken patches.
 Here, **The goal now is to draw a consistent annotation on the lane lines irrespective of whether it is broken or not.**
 > In order to draw a single annotation on the left and right lanes, I modified the draw_lines() function as follows
@@ -70,9 +70,9 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
    above algorithm.
    Next step is to find `(min_x, min_y) & (max_x, max_y)` for right-lane lines from the above steps.
 * Sixth, To achive the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
-<img src="findings/pipeLine-screenshots/9.LaneLinesAnnotated.jpg" width="480" />
+<img src="pipeLine-screenshots/9.LaneLinesAnnotated.jpg" width="480" />
 Later, made the annotation semi-transpared by using cv2.addWeighted() function.
-<img src="findings/pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" />
+<img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" />
 After implementing the above Twice, I got the below given results:
 
 ---
