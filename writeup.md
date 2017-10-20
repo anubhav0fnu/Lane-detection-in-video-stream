@@ -67,20 +67,16 @@ After implementing the above Twice, I got the below given results:
 * The below are the reflections on the image:
 ![ima1]()  |  ![ima2]()
 <p float="left">
-  <img src="/findings/slope-criterion-1/solidWhiteCurve_output.jpg" width="100" />
-  <img src="/findings/slope-criterion-1/solidWhiteRight_output.jpg" width="100" /> 
-  <img src="/findings/slope-criterion-1/solidWhiteRight_output.jpg" width="100" />
+  <img src="findings/slope-criterion-1/solidWhiteCurve_output.jpg" width="100" />
+  <img src="findings/slope-criterion-1/solidWhiteRight_output.jpg" width="100" />
+  <img src="findings/slope-criterion-1/solidYellowCurve2_output.jpg" width="100" />
+  <img src="findings/slope-criterion-1/solidYellowCurve_output.jpg" width="100" />
+  <img src="findings/slope-criterion-1/solidYellowLeft_output.jpg" width="100" />
+  <img src="findings/slope-criterion-1/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
 ---
 ---
-<ul>
-    <li><img src=""></li>
-    <li><img src=""></li>
-    <li><img src="findings/slope-criterion-1/solidYellowCurve2_output.jpg"></li>
-    <li><img src="findings/slope-criterion-1/solidYellowCurve_output.jpg"></li>
-    <li><img src="findings/slope-criterion-1/solidYellowLeft_output.jpg"></li>
-    <li><img src="findings/slope-criterion-1/whiteCarLaneSwitch_output.jpg"></li>
-</ul>
+
 ---
 >  When I kept the slope condition as 
 >> [image1]: ./findings/slope_criteria-2.png
@@ -88,14 +84,14 @@ After implementing the above Twice, I got the below given results:
 >> [image2]: ./findings/slope-criteria-2-coordinates.png
 > The below are the reflections on the image:
 >> 
-<ul>
-    <li><img src="findings/slope-Criterion-2/solidWhiteCurve_output.jpg"></li>
-    <li><img src="findings/slope-Criterion-2/solidWhiteRight_output.jpg"></li>
-    <li><img src="findings/slope-Criterion-2/solidYellowCurve2_output.jpg"></li>
-    <li><img src="findings/slope-Criterion-2/solidYellowCurve_output.jpg"></li>
-    <li><img src="findings/slope-Criterion-2/solidYellowLeft_output.jpg"></li>
-    <li><img src="findings/slope-Criterion-2/whiteCarLaneSwitch_output.jpg"></li>
-</ul>
+<p float="left">
+  <img src="findings/slope-Criterion-2/solidWhiteCurve_output.jpg" width="100" />
+  <img src="findings/slope-Criterion-2/solidWhiteRight_output.jpg" width="100" />
+  <img src="findings/slope-Criterion-2/solidYellowCurve2_output.jpg" width="100" />
+  <img src="findings/slope-Criterion-2/solidYellowCurve_output.jpg" width="100" />
+  <img src="findings/slope-Criterion-2/solidYellowLeft_output.jpg" width="100" />
+  <img src="findings/slope-Criterion-2/whiteCarLaneSwitch_output.jpg" width="100" />
+</p>
 ### 2. Identify potential shortcomings with your current pipeline
 
 
