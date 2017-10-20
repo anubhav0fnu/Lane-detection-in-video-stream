@@ -93,7 +93,7 @@ Now, I have fixed the x's and y's for annotation to get the following:
 * When I kept the above slope condition as 
 <img src="findings/slope-criteria-2.png" width="300" />
 * The following were the fixed points selected for annotation.
-<img src="findings/fixedValuesOfx&ys.png" />
+<img src="findings/fixedValuesOfx&ys.png" width='300'/>
 * The below are the reflections on the image:  
 <p float="left">
   <img src="findings/Fixed-the-x&y's/solidWhiteCurve_output.jpg" width="100" />
