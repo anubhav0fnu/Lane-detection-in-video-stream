@@ -51,16 +51,16 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 >  In order to draw a single annotation on the left and right lanes, I modified the draw_lines() function as follows
 >  1. We got an image with hough lines drawn from hough_lines() function. 
 >  2. Seperate the left-lane lines & right-lane lines from the lines returned from hough_lines() function. We can perform 
-   it by finding slope of each line and checking under the condition whether it's <0 or >0, respectively put the lines
+   it by finding slope of each line and checking under the ~~condition whether it's <0 or >0,~~ respectively put the lines
    in left-lane lines, right-lane lines list.
->>   *  **I observed that there were no verticle lines(slope Infinity) detected in any image. But, can't' find a solid reason           for it.
+>>   *  **I observed that there were no verticle lines(slope Infinity) detected in any image. But, can't find a solid reason           for it.
       May be Hough transformation has excluded them because, these lines are parallel to y-axis and will never meet.
       But, I can defend against this point that, these lines could intersect with many other +ve or -ve slope lines,
       then they are significant.**
->>   * **I found few Horizontal lines. I have seperated them into left-lane lines & right-lane lines on the basis of a 
-      condition <500 & >500 respectively**
+>>   ~~* **I found few Horizontal lines. I have seperated them into left-lane lines & right-lane lines on the basis of a 
+      condition <500 & >500 respectively**~~
 >  3. After finding the left-lane lines & right-lane lines. I followed the follow points. Consider now only left-lane lines
->>   * First find out minimum of all y's.
+>>   ~~* First find out minimum of all y's.
 >>   * Now, Calculate minimum of x for the minimum y, `Oops...!` You do not know Intercept & slope. Follow the below steps:
 >>   * Calculate average slope among all left-lane lines,
 >>>     *  find the average of all `(x1,y1,x2,y2)` coordinates to get (x1_avg,y1_avg,x2_avg,y2_avg)
@@ -71,7 +71,7 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
          `min_x = (y_min - intercept_avg) / slope_avg`
 >  4. Now, we have `(min_x, min_y)` among all left-lane lines and we can calculate `(max_x, max_y)` similarly by following the
    above algorithm.
-   Next step is to find `(min_x, min_y) & (max_x, max_y)` for right-lane lines from the above steps.
+   Next step is to find `(min_x, min_y) & (max_x, max_y)` for right-lane lines from the above steps.~~
 <br />
 *  Sixth, To achive the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
 <img src="pipeLine-screenshots/9.LaneLinesAnnotated.jpg" width="480" />
