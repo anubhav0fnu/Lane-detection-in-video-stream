@@ -40,13 +40,13 @@ INSTALL:
 ---
 
 #### a list of files contained in the repository with a brief description of each file
-* examples : Few initial images to play with.
-* findings : contains the annotated images after manuallu fixing the x's and y's
-* pipeLine-screenshots: has images from 1-->10 explaining How the created pipeline.
-* test_images: Input images to test the pipeline.
-* test_images_output: output images after implementing pipeline
-* test_videos: Input videos to text the pipeline.
-* test_videos_output: output videos after applying the pipeline
-* P1.ipynb: My code.(mostly modular)
-* README.md: Brief overview on the project and how to run it.
-* writeup.md: Complete line by line understanding of how the pipeline has been implemented.
+* examples              : Few initial images to play with.
+* findings              : contains the annotated images after manuallu fixing the x's and y's
+* pipeLine-screenshots  : has images from 1-->10 explaining How the created pipeline.
+* test_images           : Input images to test the pipeline.
+* test_images_output    : output images after implementing pipeline
+* test_videos           : Input videos to text the pipeline.
+* test_videos_output    : output videos after applying the pipeline
+* P1.ipynb              : My code.(mostly modular)
+* README.md             : Brief overview on the project and how to run it.
+* writeup.md            : Complete line by line understanding of how the pipeline has been implemented.
