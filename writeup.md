@@ -146,8 +146,7 @@ Now, I fix the x's and y's manually for annotation to get the following:<br />
 
 * I tried my best with this:<br />
 After getting hough lines,here I have both left and right lanes in it. <br />
->  
-  * 1st I seperated them into left and right lanes.( it will be fine, once I get explaination for my 1st question above)
+>>  * 1st I seperated them into left and right lanes.( it will be fine, once I get explaination for my 1st question above)
   * Later, I averaged into each category.( I'm okay with this)
   * Finally I fixed manually y's and get x's for each left and right lane.( not okay to fix manually )
   * then I have draw seperate line using these fixed min-max x's and y's for left and right.
