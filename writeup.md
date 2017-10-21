@@ -72,6 +72,7 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 >  4. Now, we have `(min_x, min_y)` among all left-lane lines and we can calculate `(max_x, max_y)` similarly by following the
    above algorithm.
    Next step is to find `(min_x, min_y) & (max_x, max_y)` for right-lane lines from the above steps.
+<br />
 *  Sixth, To achive the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
 <img src="pipeLine-screenshots/9.LaneLinesAnnotated.jpg" width="480" />
 Later, made the annotation semi-transpared by using cv2.addWeighted() function.
