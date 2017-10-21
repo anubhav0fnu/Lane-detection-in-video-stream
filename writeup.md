@@ -46,7 +46,9 @@ created a canny masked image.<br />
 
 The hough_lines() function internally calls draw_lines() function to draw the lines to the full extent. The lines returned from hough_lines() function are drawn on the bases of edges/dots returned from canny algorithm. So, basicaly lines will only be drawn on the pixels which has qualified certain threshold of pixel intensity. Therefore, if the current pipeline watches a unbroken any-color lane-lines then it will annotate it, but if it the lane-lines are broken, which they are on roads, then they will only recognise the any-color broken patches.<br />
 
-Here, **The goal now is to draw a consistent annotation on the lane lines irrespective of whether it is broken or not.**<br />
+Here,
+<br />
+**The goal now is to draw a consistent annotation on the lane lines irrespective of whether it is broken or not.**<br />
 
 >  In order to draw a single annotation on the left and right lanes, I modified the draw_lines() function as follows
 >  1. We got an image with hough lines drawn from hough_lines() function. 
@@ -75,7 +77,9 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 *  Sixth, To achive the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
 <img src="pipeLine-screenshots/9.LaneLinesAnnotated.jpg" width="480" />
 Later, made the annotation semi-transpared by using cv2.addWeighted() function.
-<img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" /><br />
+<img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" /> 
+
+<br />
 ---
 ### 2. Identify potential shortcomings with your current pipeline
 
@@ -83,7 +87,8 @@ Later, made the annotation semi-transpared by using cv2.addWeighted() function.
 * even after annotating manually, I didn't exact match to lane-lines
 * What if I want to change lanes, on a 6/8 lane road. My pipeline will never be able to change lanes. Not written code for detecting 8 lanes together. But, we can do this by increasing the mask region/by changing the shape of it(more complicated.)
 * The canny edge detection was so good that it was able to detect the car edges which was in the frame. If somehow we can extract those features and put some condition on them. We can detect vehicles infront of our Autonomous car.
-* There is no code present to mantain speed<br />
+* There is no code present to mantain speed 
+<br />
 ---
 ### 3. Suggest possible improvements to your pipeline
 
