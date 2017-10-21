@@ -38,7 +38,7 @@ created polygon mask.
 <img src="pipeLine-screenshots/5.mask.jpg" width="480" />
 created a masked image.
 <img src="pipeLine-screenshots/6.masked_image.jpg" width="480" />
-created a canny masked image.
+created a canny masked image.<br />
 <img src="pipeLine-screenshots/7.masked_canny_edges.jpg" width="480" />
 
 *  Fifth, calulated Hough lines from canny edges.
