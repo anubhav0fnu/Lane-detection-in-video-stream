@@ -78,6 +78,22 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 Later, made the annotation semi-transpared by using cv2.addWeighted() function.
 <img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" />
 After implementing the above Twice, I got the below given results:
+
+### 2. Identify potential shortcomings with your current pipeline
+
+
+One potential shortcoming would be what would happen when ... 
+
+Another shortcoming could be ...
+
+
+### 3. Suggest possible improvements to your pipeline
+
+A possible improvement would be to ...
+
+Another potential improvement could be to ...
+
+### 4. Questions to evaluator?
 ---
 * When I kept the slope condition as 
 <img src="findings/slope_criteria-1.png" width="300" />
@@ -107,7 +123,7 @@ After implementing the above Twice, I got the below given results:
   <img src="findings/slope-Criterion-2/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
 ---
-Now, I have fixed the x's and y's for annotation to get the following:
+Now, I fix the x's and y's manually for annotation to get the following:
 * When I kept the above slope condition as 
 <img src="findings/slope-criteria-2.png" width="300" />
 * The following were the fixed points selected for annotation.
@@ -121,17 +137,18 @@ Now, I have fixed the x's and y's for annotation to get the following:
   <img src="findings/Fixed-the-x&y's/solidYellowLeft_output.jpg" width="100" />
   <img src="findings/Fixed-the-x&y's/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
-### 2. Identify potential shortcomings with your current pipeline
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
-
-### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
-
+<br />
+**My question to you is, Why restricting more the slope conditions in 2nd approach has changed the result. Logocally, what I was doing in approach 1st is same. When I have restricted the whole area to draw line on the canny-image, then there is no point at all for the inclusion of noise(wrong slopes from anywhere). Then, Why a forum instructor has suggested me to restrict slope.???
+**I tried my best to with this:
+After getting hough lines,here I have both left and right lanes in it. 
+* 1st I seperated them into left and right lanes.( it will be fine, once I get explaination for my 1st question above)
+* Later, I averaged into each category.( I'm okay with this)
+* Finally I fixed manually y's and get x's for each left and right lane.( not okay to fix manually )
+* then I have draw seperate line using these fixed min-max x's and y's for left and right.
+<br />
+Why I have to fix them manually, when through logic what I was doing before, that from the pool of left and right lines, I extracted the minimum and the maximum y's(of all y1, y2 's) then
+> * Either, I extracted the corresponding minimum and maximum y's detected from above stem in the list of lists I am maintaining the left/right lines.
+> * or I used slope intercept form to calculate minimum and maximum x's from above y's.
+<br />
+IN BOTH OF THE APPROACHES I WAS NOT ABLE TO GET A GOOD ANNOTATION. MOREOVER, I INVESTED A LOT OF TIME IN EXPRESSING MY QUESTION TO FORUM MENTORS/ASSIGNED MENTOR, BUT NEVER GOT A ANSWER.
+IT'S A REQUEST TO THE EVALUATOR TO PLEASE ANSWER THEM, WHICH WILL HELP TO KNOW WHY I WAS WRONG IF I AM..??
