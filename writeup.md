@@ -144,7 +144,7 @@ Why I have to fix them manually, when through logic what I was doing before, tha
 >> * Either, I extracted the corresponding minimum and maximum y's detected from above stem in the list of lists I am maintaining the left/right lines.
 >> * or I used slope intercept form to calculate minimum and maximum x's from above y's.
 <br />
-IN BOTH OF THE APPROACHES I WAS NOT ABLE TO GET A GOOD ANNOTATION. MOREOVER, I INVESTED A LOT OF TIME IN EXPRESSING MY QUESTION TO FORUM MENTORS/ASSIGNED MENTOR, BUT NEVER GOT A CLEAR ANSWER.<br />
+IN BOTH OF THE APPROACHES I WAS NOT ABLE TO GET A GOOD ANNOTATION. MOREOVER, I INVESTED A LOT OF TIME IN EXPRESSING MY QUESTION TO FORUM MENTORS/ASSIGNED MENTOR, BUT NEVER GOT A CLEAR ANSWER.<br /> <br />
 
 * 3rd question to reviewer is in regards to challenge video, Can I changes the fixed x's & y's for the challenge video, As I can see in the video generated in the folder, the annotations were misplaced. So My question is, Are you looking for some universal x's / y's that once fixed can be generalised to any image to annotate Lane lines or we have to adjust for every image/video.?
 <br />
