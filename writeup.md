@@ -142,9 +142,8 @@ Now, I fix the x's and y's manually for annotation to get the following:<br />
 <br />
 
 **My question to you is,** <br />
-* Why restricting more the slope conditions in 2nd approach has changed the result. Logically, what I was doing in approach 1st is same. When I have restricted the whole area to draw line on the canny-image, then there is no point at all for the inclusion of noise(wrong slopes from anywhere). Then, Why a forum instructor has suggested me to restrict slope.???
-<br />
-<br />
+* Why restricting more the slope conditions in 2nd approach has changed the result. Logically, what I was doing in approach 1st is same. When I have restricted the whole area to draw line on the canny-image, then there is no point at all for the inclusion of noise(wrong slopes from anywhere). Then, Why a forum instructor has suggested me to restrict slope.???<br />
+
 * I tried my best with this:<br />
 After getting hough lines,here I have both left and right lanes in it. <br />
 >
