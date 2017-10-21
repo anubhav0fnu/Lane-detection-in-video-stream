@@ -3,9 +3,9 @@
 ### Overview <br />
 ---
 
-When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
-
+When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm. <br />
 In this project I used Python and OpenCV( Open-Source Computer Vision-a package that has many useful tools for analyzing images) to detect lane lines in images. <br />
+
 ---
 
 ### Writeup : [writeup.md](https://github.com/anubhav0fnu/Lane-detection-in-video-stream/blob/master/writeup.md)
