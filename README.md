@@ -40,13 +40,13 @@ INSTALL:
 ---
 
 #### a list of files contained in the repository with a brief description of each file
-* examples &#160; &#160;: Few initial images to play with.
-* findings &#160; &#160;: contains the annotated images after manuallu fixing the x's and y's
-* pipeLine-screenshots  &#160; &#160;: has images from 1-->10 explaining How the created pipeline.
-* test_images &#160; &#160;          : Input images to test the pipeline.
-* test_images_output &#160; &#160;   : output images after implementing pipeline
-* test_videos &#160; &#160;           : Input videos to text the pipeline.
-* test_videos_output &#160; &#160;   : output videos after applying the pipeline
-* P1.ipynb  &#160; &#160;            : My code.(mostly modular)
-* README.md   &#160; &#160;          : Brief overview on the project and how to run it.
-* writeup.md   &#160; &#160;         : Complete line by line understanding of how the pipeline has been implemented.
+* **examples** &#160; &#160;: Few initial images to play with.
+* **findings** &#160; &#160;: contains the annotated images after manuallu fixing the x's and y's
+* **pipeLine-screenshots**  &#160; &#160;: has images from 1-->10 explaining How the created pipeline.
+* **test_images** &#160; &#160;          : Input images to test the pipeline.
+* **test_images_output** &#160; &#160;   : output images after implementing pipeline
+* **test_videos** &#160; &#160;           : Input videos to text the pipeline.
+* **test_videos_output** &#160; &#160;   : output videos after applying the pipeline
+* **P1.ipynb**  &#160; &#160;            : My code.(mostly modular)
+* **README.md**   &#160; &#160;          : Brief overview on the project and how to run it.
+* **writeup.md**   &#160; &#160;         : Complete line by line understanding of how the pipeline has been implemented.
