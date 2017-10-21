@@ -81,6 +81,8 @@ Later, made the annotation semi-transpared by using cv2.addWeighted() function.
 
 <br />
 ---
+<br />
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 * Putting annotations manually.
@@ -90,6 +92,8 @@ Later, made the annotation semi-transpared by using cv2.addWeighted() function.
 * There is no code present to mantain speed 
 <br />
 ---
+<br />
+
 ### 3. Suggest possible improvements to your pipeline
 
 * I think I can detect car edges, road signs by putting filters for each category. Later, I can pass it to my piplelines which will process them on the fly.
@@ -100,6 +104,8 @@ Later, made the annotation semi-transpared by using cv2.addWeighted() function.
 
 <br />
 ---
+<br />
+
 ### 4. Questions to Evaluator?<br />
 
 * When I kept the slope condition as <br />
