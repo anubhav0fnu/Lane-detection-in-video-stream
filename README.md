@@ -40,7 +40,7 @@ INSTALL:
 ---
 
 #### a list of files contained in the repository with a brief description of each file
-* examples              &nbsp&nbsp&nbsp&nbsp: Few initial images to play with.
+* examples              &#160; &#160; &#160; &#160;: Few initial images to play with.
 * findings              : contains the annotated images after manuallu fixing the x's and y's
 * pipeLine-screenshots  : has images from 1-->10 explaining How the created pipeline.
 * test_images           : Input images to test the pipeline.
