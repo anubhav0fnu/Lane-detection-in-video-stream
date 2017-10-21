@@ -76,20 +76,24 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 <img src="pipeLine-screenshots/9.LaneLinesAnnotated.jpg" width="480" />
 Later, made the annotation semi-transpared by using cv2.addWeighted() function.
 <img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" /><br />
-
+---
 ### 2. Identify potential shortcomings with your current pipeline
 
 * Putting annotations manually.
 * even after annotating manually, I didn't exact match to lane-lines
 * What if I want to change lanes, on a 6/8 lane road. My pipeline will never be able to change lanes. Not written code for detecting 8 lanes together. But, we can do this by increasing the mask region/by changing the shape of it(more complicated.)
 * The canny edge detection was so good that it was able to detect the car edges which was in the frame. If somehow we can extract those features and put some condition on them. We can detect vehicles infront of our Autonomous car.
-* There is no code present to mantain speed
-
+* There is no code present to mantain speed<br />
+---
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+* I think I can detect car edges, road signs by putting filters for each category. Later, I can pass it to my piplelines which will process them on the fly.
 
-Another potential improvement could be to ...
+* I can also detect numbers on the Road Symbols and can write a code to increase/ decrease speed.
+
+* I can defineatly avoid manual annotation.
+
+<br />
 ---
 ### 4. Questions to Evaluator?<br />
 
