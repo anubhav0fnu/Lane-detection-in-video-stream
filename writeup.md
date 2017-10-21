@@ -60,8 +60,8 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 >>   ~~* **I found few Horizontal lines. I have seperated them into left-lane lines & right-lane lines on the basis of a 
       condition <500 & >500 respectively**~~
 >  3. After finding the left-lane lines & right-lane lines. I followed the follow points. Consider now only left-lane lines
->>   ~~* First find out minimum of all y's.
->>   * Now, Calculate minimum of x for the minimum y, `Oops...!` You do not know Intercept & slope. Follow the below steps:
+>>   ~~* First find out minimum of all y's.~~
+>>   ~~* Now, Calculate minimum of x for the minimum y, `Oops...!` You do not know Intercept & slope. Follow the below steps:~~
 >>   * Calculate average slope among all left-lane lines,
 >>>     *  find the average of all `(x1,y1,x2,y2)` coordinates to get (x1_avg,y1_avg,x2_avg,y2_avg)
 >>>     *  Now, calculate `slope_avg = (y2_avg - y1_avg) / (x2_avg - x1_avg)`
