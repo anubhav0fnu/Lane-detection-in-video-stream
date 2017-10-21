@@ -145,6 +145,7 @@ Why I have to fix them manually, when through logic what I was doing before, tha
 >> * or I used slope intercept form to calculate minimum and maximum x's from above y's.
 <br />
 IN BOTH OF THE APPROACHES I WAS NOT ABLE TO GET A GOOD ANNOTATION. MOREOVER, I INVESTED A LOT OF TIME IN EXPRESSING MY QUESTION TO FORUM MENTORS/ASSIGNED MENTOR, BUT NEVER GOT A ANSWER.
+*  3rd question to reviewer is in regards to challenge video, Can I changes the fixed x's & y's for the challenge video, As I can see in the video generated in the folder, the annotations were misplaced. So My question is, Are you looking for some universal x's / y's that once fixed can be generalised to any image to annotate Lane lines or we have to adjust for every image/video.?
 <br />
 <br />
 IT'S A REQUEST TO THE EVALUATOR TO PLEASE ANSWER THEM, WHICH WILL HELP TO KNOW WHY I WAS WRONG IF I AM..??
