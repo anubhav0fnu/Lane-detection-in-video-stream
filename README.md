@@ -40,9 +40,9 @@ INSTALL:
 ---
 
 #### a list of files contained in the repository with a brief description of each file
-* examples &#160; &#160; &#160; &#160;: Few initial images to play with.
-* findings &#160; &#160; &#160; &#160;: contains the annotated images after manuallu fixing the x's and y's
-* pipeLine-screenshots  &#160; &#160; &#160;: has images from 1-->10 explaining How the created pipeline.
+* examples &#160; &#160;: Few initial images to play with.
+* findings &#160; &#160;: contains the annotated images after manuallu fixing the x's and y's
+* pipeLine-screenshots  &#160; &#160;: has images from 1-->10 explaining How the created pipeline.
 * test_images           : Input images to test the pipeline.
 * test_images_output    : output images after implementing pipeline
 * test_videos           : Input videos to text the pipeline.
