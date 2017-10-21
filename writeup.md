@@ -152,8 +152,8 @@ After getting hough lines,here I have both left and right lanes in it. <br />
 > * then I have draw seperate line using these fixed min-max x's and y's for left and right.
 <br />
 Why I have to fix them manually, when through logic what I was doing before, that from the pool of left and right lines, I extracted the minimum and the maximum y's(of all y1, y2 's) then<br />
->  * Either, I extracted the corresponding minimum and maximum y's detected from above stem in the list of lists I am maintaining the left/right lines.
->  * or I used slope intercept form to calculate minimum and maximum x's from above y's.
+>> * Either, I extracted the corresponding minimum and maximum y's detected from above stem in the list of lists I am maintaining the left/right lines.
+>> * or I used slope intercept form to calculate minimum and maximum x's from above y's.
 <br />
 IN BOTH OF THE APPROACHES I WAS NOT ABLE TO GET A GOOD ANNOTATION. MOREOVER, I INVESTED A LOT OF TIME IN EXPRESSING MY QUESTION TO FORUM MENTORS/ASSIGNED MENTOR, BUT NEVER GOT A ANSWER.
 <br />
