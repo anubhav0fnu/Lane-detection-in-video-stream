@@ -40,7 +40,7 @@ created a masked image.
 <img src="pipeLine-screenshots/6.masked_image.jpg" width="480" />
 created a canny masked image.<br />
 <img src="pipeLine-screenshots/7.masked_canny_edges.jpg" width="480" />
-
+<br />
 *  Fifth, calulated Hough lines from canny edges.
 <img src="pipeLine-screenshots/8.HoughLines_Drawn.jpg" width="480" /><br />
 
