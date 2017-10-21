@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road** 
 <img src="findings/Fixed-the-x&y's/whiteCarLaneSwitch_output.jpg" width="480" />
-Overview
+### Overview
 ---
 
 When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
@@ -11,7 +11,7 @@ To complete the project, two files will be submitted: a file containing project 
 
 
 
-Writeup : [writeup.md](https://github.com/anubhav0fnu/Lane-detection-in-video-stream/blob/master/writeup.md)
+### Writeup : [writeup.md](https://github.com/anubhav0fnu/Lane-detection-in-video-stream/blob/master/writeup.md)
 ---
 Details about 
 
@@ -21,7 +21,8 @@ Details about
 
 3. Suggest possible improvements
 
-The Project
+
+### How to run the project:
 ---
 **Step 1:** 
 INSTALL:
