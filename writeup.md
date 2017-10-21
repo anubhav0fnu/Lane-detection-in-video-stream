@@ -75,16 +75,15 @@ Here, **The goal now is to draw a consistent annotation on the lane lines irresp
 *  Sixth, To achive the goal to get a consistent line on both lanes connect & color above lines with cv2.line() function.
 <img src="pipeLine-screenshots/9.LaneLinesAnnotated.jpg" width="480" />
 Later, made the annotation semi-transpared by using cv2.addWeighted() function.
-<img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" />
-After implementing the above Twice, I got the below given results:
+<img src="pipeLine-screenshots/10.LaneLinesDetected_output.jpg" width="480" /><br />
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
+* Putting annotations manually.
+* even after annotating manually, I didn't exact match to lane-lines
+* What if I want to change lanes, on a 6/8 lane road. My pipeline will never be able to change lanes. Not written code for detecting 8 lanes together. But, we can do this by increasing the mask region/by changing the shape of it(more complicated.)
+* The canny edge detection was so good that it was able to detect the car edges which was in the frame. If somehow we can extract those features and put some condition on them. We can detect vehicles infront of our Autonomous car.
+* There is no code present to mantain speed
 
 ### 3. Suggest possible improvements to your pipeline
 
