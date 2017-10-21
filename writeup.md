@@ -92,14 +92,14 @@ Another shortcoming could be ...
 A possible improvement would be to ...
 
 Another potential improvement could be to ...
-
-### 4. Questions to evaluator?
 ---
-* When I kept the slope condition as 
+### 4. Questions to Evaluator?<br />
+
+* When I kept the slope condition as <br />
 <img src="findings/slope_criteria-1.png" width="300" />
-* The following were the points selected for annotation.
+* The following were the points selected for annotation.<br />
 <img src="findings/slope-criteria-1,both lines-coordinates.png" width="300" />
-* The below are the reflections on the image:
+* The below are the reflections on the image:<br />
 <p float="left">
   <img src="findings/slope-criterion-1/solidWhiteCurve_output.jpg" width="100" />
   <img src="findings/slope-criterion-1/solidWhiteRight_output.jpg" width="100" />
@@ -108,12 +108,13 @@ Another potential improvement could be to ...
   <img src="findings/slope-criterion-1/solidYellowLeft_output.jpg" width="100" />
   <img src="findings/slope-criterion-1/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
----
-* When I kept the slope condition as 
+<br />
+<br />
+* When I kept the slope condition as <br />
 <img src="findings/slope-criteria-2.png" width="300" />
-* The following were the points selected for annotation.
+* The following were the points selected for annotation.<br />
 <img src="findings/slope-criteria-2-coordinates.png" width="300" />
-* The below are the reflections on the image:  
+* The below are the reflections on the image: <br /> 
 <p float="left">
   <img src="findings/slope-Criterion-2/solidWhiteCurve_output.jpg" width="100" />
   <img src="findings/slope-Criterion-2/solidWhiteRight_output.jpg" width="100" />
@@ -122,13 +123,14 @@ Another potential improvement could be to ...
   <img src="findings/slope-Criterion-2/solidYellowLeft_output.jpg" width="100" />
   <img src="findings/slope-Criterion-2/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
----
-Now, I fix the x's and y's manually for annotation to get the following:
-* When I kept the above slope condition as 
+<br />
+<br />
+Now, I fix the x's and y's manually for annotation to get the following:<br />
+* When I kept the above slope condition as <br />
 <img src="findings/slope-criteria-2.png" width="300" />
-* The following were the fixed points selected for annotation.
+* The following were the fixed points selected for annotation.<br />
 <img src="findings/fixedValuesOfx&ys.png" width='300'/>
-* The below are the reflections on the image:  
+* The below are the reflections on the image:  <br />
 <p float="left">
   <img src="findings/Fixed-the-x&y's/solidWhiteCurve_output.jpg" width="100" />
   <img src="findings/Fixed-the-x&y's/solidWhiteRight_output.jpg" width="100" />
@@ -138,17 +140,22 @@ Now, I fix the x's and y's manually for annotation to get the following:
   <img src="findings/Fixed-the-x&y's/whiteCarLaneSwitch_output.jpg" width="100" />
 </p>
 <br />
-**My question to you is, Why restricting more the slope conditions in 2nd approach has changed the result. Logocally, what I was doing in approach 1st is same. When I have restricted the whole area to draw line on the canny-image, then there is no point at all for the inclusion of noise(wrong slopes from anywhere). Then, Why a forum instructor has suggested me to restrict slope.???
-**I tried my best to with this:
+<br />
+**My question to you is,** <br />
+* Why restricting more the slope conditions in 2nd approach has changed the result. Logically, what I was doing in approach 1st is same. When I have restricted the whole area to draw line on the canny-image, then there is no point at all for the inclusion of noise(wrong slopes from anywhere). Then, Why a forum instructor has suggested me to restrict slope.???
+<br />
+* I tried my best with this:
 After getting hough lines,here I have both left and right lanes in it. 
-* 1st I seperated them into left and right lanes.( it will be fine, once I get explaination for my 1st question above)
-* Later, I averaged into each category.( I'm okay with this)
-* Finally I fixed manually y's and get x's for each left and right lane.( not okay to fix manually )
-* then I have draw seperate line using these fixed min-max x's and y's for left and right.
+> * 1st I seperated them into left and right lanes.( it will be fine, once I get explaination for my 1st question above)
+> * Later, I averaged into each category.( I'm okay with this)
+> * Finally I fixed manually y's and get x's for each left and right lane.( not okay to fix manually )
+> * then I have draw seperate line using these fixed min-max x's and y's for left and right.
 <br />
 Why I have to fix them manually, when through logic what I was doing before, that from the pool of left and right lines, I extracted the minimum and the maximum y's(of all y1, y2 's) then
-> * Either, I extracted the corresponding minimum and maximum y's detected from above stem in the list of lists I am maintaining the left/right lines.
-> * or I used slope intercept form to calculate minimum and maximum x's from above y's.
+>> * Either, I extracted the corresponding minimum and maximum y's detected from above stem in the list of lists I am maintaining the left/right lines.
+>> * or I used slope intercept form to calculate minimum and maximum x's from above y's.
 <br />
 IN BOTH OF THE APPROACHES I WAS NOT ABLE TO GET A GOOD ANNOTATION. MOREOVER, I INVESTED A LOT OF TIME IN EXPRESSING MY QUESTION TO FORUM MENTORS/ASSIGNED MENTOR, BUT NEVER GOT A ANSWER.
+<br />
+<br />
 IT'S A REQUEST TO THE EVALUATOR TO PLEASE ANSWER THEM, WHICH WILL HELP TO KNOW WHY I WAS WRONG IF I AM..??
